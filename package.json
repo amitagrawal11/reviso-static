@@ -5,6 +5,7 @@
   "description": "Lightweight interview prep tracker",
   "scripts": {
     "start": "node server.js",
-    "build": "node scripts/build-static.js"
+    "build": "node scripts/build-static.js",
+    "deploy:pages": "node scripts/deploy-gh-pages.js"
   }
 }
